@@ -1,5 +1,10 @@
 # 🧠 AI Resume Analyzer — LLM-Powered Resume Screening Platform
-
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0-D71F00?logo=sqlalchemy&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 A full-stack Generative AI application that evaluates resumes against job
 descriptions to produce job-fit scores, skill-gap analysis, resume ranking,
 and recruiter insights using an LLM + lightweight RAG pipeline.
