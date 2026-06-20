@@ -1,0 +1,56 @@
+.score-gauge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.score-gauge svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gauge-track {
+  fill: none;
+  stroke: var(--surface-3);
+}
+
+.gauge-fill {
+  fill: none;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.9s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.3s ease;
+}
+
+.gauge-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-family: "JetBrains Mono", monospace;
+  z-index: 1;
+}
+
+.gauge-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.gauge-unit {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.gauge-label {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
